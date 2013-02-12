@@ -4,3 +4,4 @@ Introduction
 ============
 
 Bootstrap styles for TinyMCE
+
