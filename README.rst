@@ -3,5 +3,5 @@
 Introduction
 ============
 
-Bootstrap styles for TinyMCE
+Bootstrap css classes for TinyMCE
 
