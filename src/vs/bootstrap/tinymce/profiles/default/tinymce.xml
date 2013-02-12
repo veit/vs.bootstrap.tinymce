@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <object>
  <layout>
-  <styles>
+  <styles purge="True">
    <element value="Heading|h2"/>
    <element value="Subheading|h3"/>
    <element value="Lead|p|lead"/>
@@ -19,7 +19,7 @@
    <element value="Linenums|pre|prettyprint linenums"/>
    <element value="Clear floats|div|visualClear"/>
   </styles>
-  <tablestyles>
+  <tablestyles purge="True">
    <element value="Plain|plain"/>
    <element value="Striped|table-striped"/>
    <element value="Bordered|table-bordered"/>
