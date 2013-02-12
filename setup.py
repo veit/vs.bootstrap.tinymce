@@ -9,9 +9,9 @@ long_description = (
     'Contributors\n'
     '============\n'
     + '\n' +
-    open('CONTRIBUTORS.rst').read()
+    open('CONTRIBUTORS.txt').read()
     + '\n' +
-    open('CHANGES.rst').read()
+    open('CHANGES.txt').read()
     + '\n')
 
 setup(name='vs.bootstrap.tinymce',
@@ -25,14 +25,14 @@ setup(name='vs.bootstrap.tinymce',
         "Framework :: Plone",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 2.6",
+        "Programming Language :: Python :: 2.7",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords='plone tinymce bootstrap',
       author='Veit Schiele',
       author_email='kontakt@veit-schiele.de',
       url='https://github.com/veit/vs.bootstrap.tinymce',
-      license='gpl',
+      license='GPL version 2',
       packages=find_packages('src'),
       package_dir={'': 'src'},
       namespace_packages=['vs', 'vs.bootstrap'],
