@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0.1'
+version = '1.0.2'
 
 long_description = (
     open('README.rst').read()
@@ -9,9 +9,9 @@ long_description = (
     'Contributors\n'
     '============\n'
     + '\n' +
-    open('CONTRIBUTORS.txt').read()
+    open('CONTRIBUTORS.rst').read()
     + '\n' +
-    open('CHANGES.txt').read()
+    open('CHANGES.rst').read()
     + '\n')
 
 setup(name='vs.bootstrap.tinymce',
@@ -25,7 +25,7 @@ setup(name='vs.bootstrap.tinymce',
         "Framework :: Plone",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 2.6",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords='plone tinymce bootstrap',
