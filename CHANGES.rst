@@ -4,6 +4,8 @@ Changelog
 1.0.3 (2013-05-11)
 ------------------
 
+- Updated description
+  [Veit Schiele]
 - Updated to zc.buildout 2
   [Veit Schiele]
 
